@@ -1,0 +1,29 @@
+.privacy {
+  & > .head {
+    & > .img-container {
+      display: flex;
+      justify-content: left;
+      padding-inline: 15px;
+      padding-block: 20px;
+      & > img {
+        width: 400px;
+      }
+    }
+    & > .hr {
+      height: 3px;
+      background-color: black;
+      filter: blur(1px);
+    }
+  }
+
+  & > .text {
+    padding: 15px;
+    height: 400px;
+    overflow-y: scroll;
+    & > img {
+      width: 100px;
+      float: right;
+      margin: 10px;
+    }
+  }
+}
